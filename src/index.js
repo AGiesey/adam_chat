@@ -1,7 +1,6 @@
-import './styles/styles.css';
-import Backbone from 'backbone'
+import './styles/styles.scss';
+import ChatRoom from './components/ChatRoom';
+import $ from 'jquery';
 
-const ChatModel = Backbone.Model.extend();
-
-const firstChat = new ChatModel({msg: 'hello world'})
-console.log('App is working', firstChat, firstChat.get('msg'));
+const chatRoom = new ChatRoom({el: $('body')});
+chatRoom.render();

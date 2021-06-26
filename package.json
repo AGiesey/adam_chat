@@ -19,14 +19,23 @@
   },
   "homepage": "https://github.com/AGiesey/adam_chat#readme",
   "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-loader": "^8.2.2",
     "css-loader": "^5.2.6",
+    "html-loader": "^2.1.2",
+    "mini-css-extract-plugin": "^1.6.0",
+    "postcss": "^8.3.5",
+    "postcss-loader": "^6.1.0",
+    "sass": "^1.35.1",
+    "sass-loader": "^12.1.0",
     "style-loader": "^2.0.0",
     "webpack": "^5.39.1",
     "webpack-cli": "^4.7.2"
   },
   "dependencies": {
     "backbone": "^1.4.0",
-    "bootstrap": "^5.0.1",
+    "bootstrap": "^5.0.2",
     "jquery": "^3.6.0"
   }
 }
